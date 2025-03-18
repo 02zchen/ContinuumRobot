@@ -2,6 +2,8 @@ import serial
 import pygame
 import time
 
+#Note that this code is for computer and arduino based communication. 
+
 # Initialize pygame and joystick
 pygame.init()
 joystick = pygame.joystick.Joystick(0)
